@@ -1,0 +1,38 @@
+@media(max-width:1199px) {
+    .home-wrap
+    .main-header {
+        position: static;
+    }
+}
+
+.home-wrap
+.main-header {
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 11;
+}
+
+.main-header {
+    padding: 40px 10px;
+    transition: all 0.4s ease-in-out;
+}
+
+.rel-div {
+    position: relative;
+}
+.medium-font {
+    font-size: 11px;
+    letter-spacing: 3px;
+    margin: 5px 0;
+    display: block;
+    text-transform: uppercase;
+}
+
+@media (min-width: 768px){
+    .col-sm-8 {
+        width: 66.6666667%;
+        float: left;
+    }
+}
+

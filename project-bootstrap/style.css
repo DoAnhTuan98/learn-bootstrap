@@ -37,7 +37,13 @@
     position: relative;
 }
 
-.figure .img-ovrlay {
+.figure .img-ovrlay a {
+    position: relative;
+    top: 45%;
+    padding: 10px 20px;
+}
+
+.figure .img-ovrlay{
     position: absolute;
     width: 100%;
     top: 0;
@@ -48,6 +54,9 @@
     display: none;
 }
 
+.figure:hover .img-ovrlay {
+    display: inline;
+}
 .white-box {
     background: #fff;
     margin-bottom: 30px;
@@ -72,3 +81,15 @@
     border-radius: 60px;
 }
 
+.col-md-12 .bg-light {
+    padding: 100px 0;
+}
+
+.mt-40 {
+    margin-top: 40px;;
+}
+
+.col-md-12 .mt-40 .plr-30 {
+    padding-left: 30px!important;
+    padding-right: 30px!important;
+}
