@@ -11,7 +11,7 @@
 <body>
     <main class="wrapper home-wrap">
         <header class="main-header">
-            <div class="container-fluid rel-div">
+            <div class="container-fluid rel-div col-lg-12">
                 <div class="col-lg-4 col-sm-8">
                     <div class="main-logo">
                         <a href="#">
@@ -23,17 +23,98 @@
                 <div class="col-lg-6 responsive-menu">
                     <div class="responsive-toggle fa fa-bars"></div>
                     <nav class="fix-navbar" id="primary-navigation">
-                        <ul>
-                            <li>
-                                <a href="#">Home</a>
-                                <ul></ul>
+                        <ul id="naturixMainMenu" class="primary-navbar">
+                            <li class="">
+                              <a class="" href="#">Home</a>
+                              <ul class="dropdown-menu">
+                                  <li class="">
+                                      <a href="#" class="">Home 1</a>
+                                  </li>
+                                  <li>
+                                      <a href="#">Home 2</a>
+                                  </li>
+                                  <li>
+                                      <a href="#">Home 3</a>
+                                  </li>
+                                  <li>
+                                      <a href="#">Home 4</a>
+                                  </li>
+                              </ul>
+                            </li>
+                            <li class="">
+                              <a class="" href="#">ABOUT US</a>
+                            </li>
+                            <li class="">
+                              <a class="" href="#">SHOP</a>
+                              <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#">Shop</a>
+                                </li>
+                                <li>
+                                    <a href="#">Shop width Top Bar</a>
+                                </li>
+                                <li>
+                                    <a href="#">Shop width Top Bar</a>
+                                </li>
+                                <li>
+                                    <a href="#">Shop width Top Bar</a>
+                                </li> <li>
+                                    <a href="#">Shop width Top Bar</a>
+                                </li>
+                                <li>
+                                    <a href="#">Shop width Top Bar</a>
+                                </li>
+                                <li>
+                                    <a href="#">Shop width Top Bar</a>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Disabled</a>
                             </li>
                         </ul>
                     </nav>
                 </div>
-                <div class="col-lg-2 col-sm-4 cart-megamenu"></div>
+                <div class="col-lg-2 col-sm-4 cart-megamenu">
+                    <div class="cart-hover">
+                        <a href="#">
+                            <img src="images/cart-icon.png" alt="">
+                            <span class="ctn crl-bg">0</span>
+                        </a>
+                        <span class="price">
+                            <span class="">
+                                <span>$0.00</span>
+                                
+                            </span>
+                        </span>
+                    </div>
+                    <div class="mega-submenu">
+                        <span class="nav-trigger">
+                            <a href="#" class="menu-toggle">
+                                <img src="images/menu.png" alt="">
+                            </a>
+                        </span>
+                        <div class="mega-dropdown-menu">
+                            <a href="#" class="menu-toggle fa fa-close"></a>
+                            <div class="slider-mega-menu owl-carousel owl-theme owl-loaded">
+                                <div class="owl-stage-outer">
+                                    <div class="owl-stage" style="transform:translate3d(-20);"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </header>
+        <section class="blog-wrap sec-space-bottom">
+            <div class="homepage-content">
+                <div class="container">
+                    <div id="pl-19" class="panel-layout">
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 </html>

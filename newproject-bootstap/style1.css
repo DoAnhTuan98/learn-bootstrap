@@ -1,0 +1,137 @@
+.top1 {
+    border-bottom: 1px solid rgba(246, 174, 0, 0.2);
+    position: relative;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.currency {
+    width: 150px;
+    text-align: center;
+    float: left;
+}
+
+.top-wrapper-dark a.dropdown-toggle {
+    /* color: #fff; */
+}
+
+a.dropdown-toggle {
+    display:block;
+    font-size:14px;
+    text-decoration: none;
+    line-height: 64px;
+    padding: 0 30px;
+}
+
+.dropdown-toggle::after {
+    /* border: none; */
+    margin-left: 0;
+    font-size: 10px;
+    /* vertical-align: top; */
+    width: auto;
+    padding-left: 3px;
+    display: inline-block;
+    height: 0px;
+}
+
+.dropdown-toggle img {
+    margin-right: 30px;
+    vertical-align: middle;
+    border-radius: 2px;
+}
+
+.top-wrapper-dark .search-open {
+    /* color: #fff;  */
+    float: right;
+}
+
+.search-btn {
+    display: block;
+    text-decoration: none;
+    width: 81px;
+    height: 64px;
+    line-height: 64px;
+    border-left: 1px solid rgba(246, 174, 0, 0.2);
+    color: #333333;
+    text-align: center;
+    font-size: 24px;
+}
+
+.social-wrapper {
+    float: right;
+    padding: 0 20px;
+    border-left: 1px solid rgba(246, 174, 0, 0.2);
+}
+
+.social {
+    display: block;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.social li {
+    display: inline-block;
+    padding: 0px 5px;
+}
+/* .top-wrapper-dark .social a {
+    color: #fff;
+} */
+
+.social a {
+    display: block;
+    color: #333333;
+    line-height: 64px;
+    transition: all 0.3s ease-out;
+}
+
+.navbar_ {
+    display: block;
+    float: right;
+    padding: 0;
+    position: static;
+}
+.navbar_ .navbar-collapse {
+    clear: both;
+}
+
+.navbar_ .navbar-nav {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.sf-mega {
+    position: absolute;
+    left: 50%;
+    margin-top: -2px;
+    background: #fff;
+    border-radius: 0;
+    border-top: 2px solid #fab000;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.1);
+    transform: translate(-50%, 0);
+}
+
+.navbar_ .navbar-nav > li {
+    display: block;
+    float: left;
+    white-space: nowrap;
+    margin-left: 20px;
+}
+
+.navbar_ a {
+    line-height: 74px;
+}
+
+#slides_wrapper {
+    background: #000;
+    z-index: 1; 
+}
+
+#slides {
+    background: #000;
+    z-index: 1;
+    opacity: 0.75;
+}

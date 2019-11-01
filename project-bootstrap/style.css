@@ -55,7 +55,7 @@
 }
 
 .figure:hover .img-ovrlay {
-    display: inline;
+    display: inline-block;
 }
 .white-box {
     background: #fff;
